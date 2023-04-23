@@ -36,7 +36,7 @@ const FoodSlide = () => {
   };
 
   return (
-    <div className='max-w-[1400px] h-[580px] mt-96 w-full m-auto py-16 px-4 relative group'>
+    <div className='max-w-[1400px] h-[580px] mt-16 w-full m-auto py-4 px-4 relative group'>
       <div
         className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
